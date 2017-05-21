@@ -1,0 +1,221 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	background-image: url("../../whirlpool.png");
+	margin: 0;
+}
+
+header {
+	
+	position: relative;
+	display: block;
+	max-width: 100%;
+	margin: 0 auto;
+	padding: 10px;
+	color: #fff;
+	background: white;
+	font-family: serif;
+}
+
+#top {
+	display: inline;
+	float: left;
+	padding: 10px;
+	background: #4aaaa5;
+	color: white;
+	margin-left: 15%;
+}
+
+nav {
+	padding-left: 0;
+	margin-bottom: 0;
+	margin-right: 15%;
+	margin-top: 0;
+	list-style: none;
+	float: right;
+	display: inline;
+}
+
+nav li {
+	position: relative;
+	display: inline-block; 
+	list-style-type: none;
+	padding: 0 1rem;
+	color: #ccc;
+	border-right: 1px solid #ccc; 
+}
+
+.container {
+	position: relative;
+	display: inline;
+	width: 650px;
+	margin-left: 15%;
+	margin-top: 5%;
+	color: #fff;
+	background: white;
+	font-family: sans-serif;
+	float: left; 
+}
+
+#title {
+	color: #4aaaa5;
+	display: inline; 
+	width: 650px;
+	float: left;
+	padding: 15px;
+}
+
+#prof {
+	display: inline;
+	float: left;
+	padding: 15px;
+}
+
+#bio-image {
+	width: 200px;
+	height: 300px;
+}
+
+#bio {
+	color: black;
+	display: inline;
+	padding: 10px;
+}
+
+p {
+	padding-right: 10px;
+	padding-left: 10px;
+}
+
+.container2 {
+	position: relative;
+	display: inline;
+	width: 270px;
+	margin-left: 3%;
+	margin-top: 5%;
+	color: #fff;
+	background: white;
+	font-family: sans-serif;
+	float: left; 
+}
+
+#con {
+	color: #4aaaa5;
+	display: inline; 
+	width: 270px;
+	float: left;
+	padding: 15px;
+	text-align: center;
+}
+
+#github {
+	margin: 5px;
+	padding-left: 5px;
+	display: inline-block;
+	width: 60px;
+}
+
+#linkedin {
+	margin: 5px;
+	padding-left: 5px;
+	display: inline-block;
+	width: 60px;
+}
+
+#stackoverflow {
+	margin: 5px;
+	padding-left:5px;
+	display: inline-block;
+	width: 60px;
+}
+
+main {
+	overflow: auto;
+}
+
+footer {
+  position: relative;
+  margin-top: 2%; 
+  width: 100%;
+  text-align: center;
+  font-size: 0.8em;
+  bottom: 0;
+  background-color: #5f5d5d;
+  padding: 20px;
+  border-top: 5px solid #4aaaa5;
+}
+
+h2 {
+	border-bottom: 1px solid #ccc;
+}
+
+#line {
+	color: #eee;
+}
+
+#snowboarding {
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+}
+
+#NPSlogo {
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+}
+
+#steelerslogo {
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+}
+
+#SHPirates {
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+}
+
+#USHoR {
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+}
+
+#Beer {
+	width: 200px;
+	height: 200px;
+	padding: 10px;
+}
+
+#form {
+	color: darkgray;
+	padding: 10px;
+	margin-left: 5px;
+	font-family: sans-serif;
+}
+
+#button {
+	background-color: #4aaaa5;
+	color: white;
+	padding: 10px;
+	border: none;
+	font-family: sans-serif;
+}
+
+@media screen and (max-width: 980px) {
+
+}
+
+@media screen and (max-width: 768px) {
+
+}
+
+@media screen and (max-width: 640px) {
+	header {
+		position: static;
+	}
+}
